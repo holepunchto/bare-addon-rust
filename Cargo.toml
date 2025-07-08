@@ -7,4 +7,4 @@ publish = false
 crate-type = ["staticlib"]
 
 [dependencies]
-bare-rust = { git = "ssh://github.com/holepunchto/bare-rust.git" }
+bare-rust = { git = "https://github.com/holepunchto/bare-rust" }

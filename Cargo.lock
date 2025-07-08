@@ -12,7 +12,7 @@ dependencies = [
 [[package]]
 name = "bare-rust"
 version = "0.0.0"
-source = "git+ssh://github.com/holepunchto/bare-rust.git#e3597985091c9b60d8c9a4ff459fb812829aa5ba"
+source = "git+https://github.com/holepunchto/bare-rust#e3597985091c9b60d8c9a4ff459fb812829aa5ba"
 dependencies = [
  "bare-rust-ffi",
 ]
@@ -20,4 +20,4 @@ dependencies = [
 [[package]]
 name = "bare-rust-ffi"
 version = "0.0.0"
-source = "git+ssh://github.com/holepunchto/bare-rust.git#e3597985091c9b60d8c9a4ff459fb812829aa5ba"
+source = "git+https://github.com/holepunchto/bare-rust#e3597985091c9b60d8c9a4ff459fb812829aa5ba"
