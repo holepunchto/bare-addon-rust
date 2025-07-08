@@ -1,6 +1,6 @@
 use bare_rust::{
     ffi::{js_env_t, js_value_t},
-    Env, Object, String,
+    Env, Function, Object, String,
 };
 
 #[unsafe(no_mangle)]
@@ -12,8 +12,12 @@ pub extern "C" fn bare_addon_exports(
 
     let mut exports = Object::new(&env).unwrap();
 
+    let function = Function::new(&env, |env, info| {
+        String::new(&env, "Hello from Rust").unwrap()
+    });
+
     exports
-        .set_named_property("hello", String::new(&env, "Hello from Rust!").unwrap())
+        .set_named_property("hello", function.unwrap())
         .unwrap();
 
     exports.into()

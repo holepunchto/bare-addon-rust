@@ -7,4 +7,4 @@ publish = false
 crate-type = ["staticlib"]
 
 [dependencies]
-bare-rust = { git = "https://github.com/holepunchto/bare-rust" }
+bare-rust = "0.0.1"
