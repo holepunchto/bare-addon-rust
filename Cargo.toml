@@ -5,6 +5,7 @@ publish = false
 
 [lib]
 crate-type = ["staticlib"]
+path = "binding.rs"
 
 [dependencies]
 bare-rust = "0.0.1"
