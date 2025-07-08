@@ -1,0 +1,10 @@
+[package]
+name = "bare-addon-rust"
+edition = "2024"
+publish = false
+
+[lib]
+crate-type = ["staticlib"]
+
+[dependencies]
+bare-rust = { git = "ssh://github.com/holepunchto/bare-rust.git" }
