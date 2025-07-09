@@ -1,5 +1,3 @@
-#![no_std]
-
 use bare_rust::{
     ffi::{js_env_t, js_value_t},
     Env, Function, Object, String,
