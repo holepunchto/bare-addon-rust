@@ -9,7 +9,9 @@ pub extern "C" fn bare_addon_exports(env: *mut js_env_t, _: *mut js_value_t) -> 
 
     let mut exports = Object::new(&env).unwrap();
 
-    let function = Function::new(&env, |env, _| String::new(&env, "Hello from Rust"));
+    let function = Function::new(&env, |env, _| {
+        Ok(String::new(&env, "Hello from Rust")?.into())
+    });
 
     exports
         .set_named_property("hello", function.unwrap())
