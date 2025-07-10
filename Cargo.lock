@@ -11,15 +11,15 @@ dependencies = [
 
 [[package]]
 name = "bare-rust"
-version = "0.0.1"
+version = "0.0.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0b21256df0d9f1b482cac39b9a284a222faeeb4178736fc56866ba38e7bf38a5"
+checksum = "fd7edc8025860e05a4b21a22ce18945416db95c7f72738060dba8db898ac0a5b"
 dependencies = [
  "bare-rust-ffi",
 ]
 
 [[package]]
 name = "bare-rust-ffi"
-version = "0.0.1"
+version = "0.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ab5ef3c271a325ded4f7fd0bb525136c33d9b31696fe8f832375d530b8f6572d"
+checksum = "4a7608d0393139d012c1daf85347129a1da868fae33a51b96c9e712420750fcb"
