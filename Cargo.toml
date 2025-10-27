@@ -8,4 +8,4 @@ crate-type = ["staticlib"]
 path = "binding.rs"
 
 [dependencies]
-bare-rust = "0.0.8"
+bare-rust = "0.0.11"

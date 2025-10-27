@@ -11,9 +11,9 @@ dependencies = [
 
 [[package]]
 name = "bare-rust"
-version = "0.0.8"
+version = "0.0.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4bca490338883827fe23105e422b20ae7c5295441dab99c477cd7e613c52ff49"
+checksum = "a77084b4dd339de3efda16c29d659b76d264ba4942913f00c5566b403b85cf65"
 dependencies = [
  "bare-rust-ffi",
 ]
