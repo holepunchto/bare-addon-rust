@@ -10,8 +10,11 @@
   "files": [
     "index.js",
     "binding.c",
+    "binding.rs",
     "binding.js",
     "CMakeLists.txt",
+    "Cargo.toml",
+    "Cargo.lock",
     "prebuilds"
   ],
   "addon": true,
