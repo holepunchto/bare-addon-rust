@@ -1,6 +1,6 @@
 # bare-addon-rust
 
-Template repository for creating Bare native addons using [bare-rust](https://github.com/holepunchto/bare-rust). For information on how to use the template, see [Creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+Template repository for creating Bare native addons using <https://github.com/holepunchto/bare-rust>. For information on how to use the template, see [Creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
 
 ## Building
 
